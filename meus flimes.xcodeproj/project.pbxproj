@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64E09BAF1EC9568F001CE94C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E09BAE1EC9568F001CE94C /* AppDelegate.swift */; };
+		64E09BB11EC9568F001CE94C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E09BB01EC9568F001CE94C /* ViewController.swift */; };
+		64E09BB41EC9568F001CE94C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64E09BB21EC9568F001CE94C /* Main.storyboard */; };
+		64E09BB71EC9568F001CE94C /* meus_flimes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64E09BB51EC9568F001CE94C /* meus_flimes.xcdatamodeld */; };
+		64E09BB91EC9568F001CE94C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64E09BB81EC9568F001CE94C /* Assets.xcassets */; };
+		64E09BBC1EC9568F001CE94C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64E09BBA1EC9568F001CE94C /* LaunchScreen.storyboard */; };
+		64E09BC41EC95743001CE94C /* Filme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E09BC31EC95743001CE94C /* Filme.swift */; };
+		64E09BC61EC95EF7001CE94C /* FilmeCelula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E09BC51EC95EF7001CE94C /* FilmeCelula.swift */; };
+		64E09BC81EC967B6001CE94C /* DetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E09BC71EC967B6001CE94C /* DetalhesViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64E09BAB1EC9568F001CE94C /* meus flimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "meus flimes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E09BAE1EC9568F001CE94C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64E09BB01EC9568F001CE94C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64E09BB31EC9568F001CE94C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64E09BB61EC9568F001CE94C /* meus_flimes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = meus_flimes.xcdatamodel; sourceTree = "<group>"; };
+		64E09BB81EC9568F001CE94C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64E09BBB1EC9568F001CE94C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64E09BBD1EC9568F001CE94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64E09BC31EC95743001CE94C /* Filme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filme.swift; sourceTree = "<group>"; };
+		64E09BC51EC95EF7001CE94C /* FilmeCelula.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmeCelula.swift; sourceTree = "<group>"; };
+		64E09BC71EC967B6001CE94C /* DetalhesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalhesViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64E09BA81EC9568F001CE94C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64E09BA21EC9568F001CE94C = {
+			isa = PBXGroup;
+			children = (
+				64E09BAD1EC9568F001CE94C /* meus flimes */,
+				64E09BAC1EC9568F001CE94C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64E09BAC1EC9568F001CE94C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64E09BAB1EC9568F001CE94C /* meus flimes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64E09BAD1EC9568F001CE94C /* meus flimes */ = {
+			isa = PBXGroup;
+			children = (
+				64E09BAE1EC9568F001CE94C /* AppDelegate.swift */,
+				64E09BB01EC9568F001CE94C /* ViewController.swift */,
+				64E09BC31EC95743001CE94C /* Filme.swift */,
+				64E09BB21EC9568F001CE94C /* Main.storyboard */,
+				64E09BC71EC967B6001CE94C /* DetalhesViewController.swift */,
+				64E09BC51EC95EF7001CE94C /* FilmeCelula.swift */,
+				64E09BB81EC9568F001CE94C /* Assets.xcassets */,
+				64E09BBA1EC9568F001CE94C /* LaunchScreen.storyboard */,
+				64E09BBD1EC9568F001CE94C /* Info.plist */,
+				64E09BB51EC9568F001CE94C /* meus_flimes.xcdatamodeld */,
+			);
+			path = "meus flimes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64E09BAA1EC9568F001CE94C /* meus flimes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64E09BC01EC9568F001CE94C /* Build configuration list for PBXNativeTarget "meus flimes" */;
+			buildPhases = (
+				64E09BA71EC9568F001CE94C /* Sources */,
+				64E09BA81EC9568F001CE94C /* Frameworks */,
+				64E09BA91EC9568F001CE94C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "meus flimes";
+			productName = "meus flimes";
+			productReference = 64E09BAB1EC9568F001CE94C /* meus flimes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64E09BA31EC9568F001CE94C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Raphael Freitas dos Santos";
+				TargetAttributes = {
+					64E09BAA1EC9568F001CE94C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = L6NEBCTNWN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 64E09BA61EC9568F001CE94C /* Build configuration list for PBXProject "meus flimes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64E09BA21EC9568F001CE94C;
+			productRefGroup = 64E09BAC1EC9568F001CE94C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64E09BAA1EC9568F001CE94C /* meus flimes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64E09BA91EC9568F001CE94C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E09BBC1EC9568F001CE94C /* LaunchScreen.storyboard in Resources */,
+				64E09BB91EC9568F001CE94C /* Assets.xcassets in Resources */,
+				64E09BB41EC9568F001CE94C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64E09BA71EC9568F001CE94C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E09BB71EC9568F001CE94C /* meus_flimes.xcdatamodeld in Sources */,
+				64E09BC61EC95EF7001CE94C /* FilmeCelula.swift in Sources */,
+				64E09BC81EC967B6001CE94C /* DetalhesViewController.swift in Sources */,
+				64E09BB11EC9568F001CE94C /* ViewController.swift in Sources */,
+				64E09BAF1EC9568F001CE94C /* AppDelegate.swift in Sources */,
+				64E09BC41EC95743001CE94C /* Filme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64E09BB21EC9568F001CE94C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64E09BB31EC9568F001CE94C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64E09BBA1EC9568F001CE94C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64E09BBB1EC9568F001CE94C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64E09BBE1EC9568F001CE94C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64E09BBF1EC9568F001CE94C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64E09BC11EC9568F001CE94C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L6NEBCTNWN;
+				INFOPLIST_FILE = "meus flimes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.challenge.meus-flimes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		64E09BC21EC9568F001CE94C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L6NEBCTNWN;
+				INFOPLIST_FILE = "meus flimes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.challenge.meus-flimes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64E09BA61EC9568F001CE94C /* Build configuration list for PBXProject "meus flimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64E09BBE1EC9568F001CE94C /* Debug */,
+				64E09BBF1EC9568F001CE94C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64E09BC01EC9568F001CE94C /* Build configuration list for PBXNativeTarget "meus flimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64E09BC11EC9568F001CE94C /* Debug */,
+				64E09BC21EC9568F001CE94C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		64E09BB51EC9568F001CE94C /* meus_flimes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				64E09BB61EC9568F001CE94C /* meus_flimes.xcdatamodel */,
+			);
+			currentVersion = 64E09BB61EC9568F001CE94C /* meus_flimes.xcdatamodel */;
+			path = meus_flimes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 64E09BA31EC9568F001CE94C /* Project object */;
+}
